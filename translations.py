@@ -67,7 +67,7 @@ translations_dict = {
         ("*", "Clear Custom Split Normals"): "清除自定义拆分法线",
         ("*", "Requires Blender 5.1+"): "需要 Blender 5.1+",
         
-        # 属性标签（插件自定义，Blender 没有内置翻译的）
+        # 属性标签
         ("*", "Normal Y"): "法线 Y",
         ("*", "Render Method"): "渲染方法",
         ("*", "Displacement Method"): "置换方法",

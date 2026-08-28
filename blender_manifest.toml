@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 id = "Batch_Material_Helper"
 name = "Batch Material Helper"
-version = "1.0.7"
+version = "1.0.8"
 tagline = "Helps you quickly modify materials"
 maintainer = "maylog"
 type = "add-on"
