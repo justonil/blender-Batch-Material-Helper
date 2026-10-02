@@ -1,12 +1,12 @@
 schema_version = "1.0.0"
 id = "Batch_Material_Helper"
 name = "Batch Material Helper"
-version = "1.0.8"
+version = "1.1.0"
 tagline = "Helps you quickly modify materials"
 maintainer = "maylog"
 type = "add-on"
 tags = ["Material"]
-blender_version_min = "4.2.0"
+blender_version_min = "5.2.0"
 license = ["SPDX:GPL-3.0-or-later"]
 website = "https://github.com/mayloglog/blender-Batch-Material-Helper"
 copyright = ["2025 maylog"]

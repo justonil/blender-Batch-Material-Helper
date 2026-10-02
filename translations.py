@@ -5,7 +5,7 @@ translations_dict = {
     "zh_HANS": {
         # bl_info 中的描述
         ("*", "Batch adjust material and BSDF properties for selected objects"): "批量调整选中对象的材质和 BSDF 属性",
-        
+
         # 插件自定义属性名称
         ("*", "Use Base Color"): "使用基础色",
         ("*", "Use Metallic"): "使用金属度",
@@ -13,14 +13,25 @@ translations_dict = {
         ("*", "Use IOR"): "使用 IOR",
         ("*", "Use Alpha"): "使用 Alpha",
         ("*", "Use IOR Level"): "使用 IOR 级别",
+        ("*", "Use Specular Tint"): "使用高光染色",
+        ("*", "Use Anisotropic"): "使用各向异性",
+        ("*", "Use Anisotropic Rotation"): "使用各向异性旋转",
         ("*", "Use Emission Color"): "使用自发光颜色",
         ("*", "Use Emission Strength"): "使用自发光强度",
         ("*", "Use Coat Weight"): "使用涂层权重",
+        ("*", "Use Coat Roughness"): "使用涂层糙度",
+        ("*", "Use Coat IOR"): "使用涂层 IOR",
+        ("*", "Use Coat Tint"): "使用涂层染色",
         ("*", "Use Sheen Weight"): "使用光泽权重",
+        ("*", "Use Sheen Roughness"): "使用光泽糙度",
+        ("*", "Use Sheen Tint"): "使用光泽染色",
         ("*", "Use Transmission Weight"): "使用透射权重",
         ("*", "Use Subsurface Weight"): "使用次表面权重",
         ("*", "Use Subsurface Method"): "使用次表面方法",
         ("*", "Use Subsurface Scale"): "使用次表面缩放",
+        ("*", "Use Subsurface Radius"): "使用次表面半径",
+        ("*", "Use Subsurface IOR"): "使用次表面 IOR",
+        ("*", "Use Subsurface Anisotropy"): "使用次表面各向异性",
         ("*", "Use Normal Convention"): "使用法线约定",
         ("*", "Use Alpha Mode"): "使用 Alpha 模式",
         ("*", "Use Color Space"): "使用色彩空间",
@@ -34,7 +45,7 @@ translations_dict = {
         ("*", "Use Display Metallic"): "使用显示金属度",
         ("*", "Use Display Roughness"): "使用显示糙度",
         ("*", "Clear Custom Split Normals Data"): "清除自定义拆分法线数据",
-        
+
         # 插件自定义属性值
         ("*", "OpenGL"): "OpenGL",
         ("*", "DirectX"): "DirectX",
@@ -52,7 +63,8 @@ translations_dict = {
         ("*", "Christensen-Burley"): "Christensen-Burley",
         ("*", "Random Walk"): "随机游走",
         ("*", "Random Walk (Skin)"): "随机游走（皮肤）",
-        
+        ("*", "Random Walk (Legacy)"): "随机游走（传统）",
+
         # UI Panel 标题
         ("*", "Batch Material Helper"): "批量材质助手",
         ("*", "BSDF Properties"): "BSDF 属性",
@@ -61,12 +73,13 @@ translations_dict = {
         ("*", "Node Properties"): "节点属性",
         ("*", "Image Texture Settings"): "图像纹理设置",
         ("*", "Mesh Properties"): "网格属性",
-        
+
         # 按钮文本
         ("*", "Apply to Selected"): "应用到选中",
         ("*", "Clear Custom Split Normals"): "清除自定义拆分法线",
         ("*", "Requires Blender 5.1+"): "需要 Blender 5.1+",
-        
+        ("*", "Available in Blender 5.1+"): "需要 Blender 5.1+",
+
         # 属性标签
         ("*", "Normal Y"): "法线 Y",
         ("*", "Render Method"): "渲染方法",
@@ -82,9 +95,20 @@ translations_dict = {
         ("*", "Alpha Mode"): "Alpha 模式",
         ("*", "Subsurface Method"): "次表面方法",
         ("*", "Subsurface Scale"): "次表面缩放",
+        ("*", "Subsurface Radius"): "次表面半径",
+        ("*", "Subsurface IOR"): "次表面 IOR",
+        ("*", "Subsurface Anisotropy"): "次表面各向异性",
         ("*", "Normal Convention"): "法线约定",
+        ("*", "Specular Tint"): "高光染色",
+        ("*", "Anisotropic"): "各向异性",
+        ("*", "Anisotropic Rotation"): "各向异性旋转",
         ("*", "Coat Weight"): "涂层权重",
+        ("*", "Coat Roughness"): "涂层糙度",
+        ("*", "Coat IOR"): "涂层 IOR",
+        ("*", "Coat Tint"): "涂层染色",
         ("*", "Sheen Weight"): "光泽权重",
+        ("*", "Sheen Roughness"): "光泽糙度",
+        ("*", "Sheen Tint"): "光泽染色",
         ("*", "Transmission Weight"): "透射权重",
         ("*", "Subsurface Weight"): "次表面权重",
         ("*", "Emission Color"): "自发光颜色",
@@ -94,7 +118,7 @@ translations_dict = {
     "zh_HANT": {
         # bl_info 中的描述
         ("*", "Batch adjust material and BSDF properties for selected objects"): "批量調整選中對象的材質和 BSDF 屬性",
-        
+
         # 插件自定義屬性名稱
         ("*", "Use Base Color"): "使用基礎色",
         ("*", "Use Metallic"): "使用金屬度",
@@ -102,14 +126,25 @@ translations_dict = {
         ("*", "Use IOR"): "使用 IOR",
         ("*", "Use Alpha"): "使用 Alpha",
         ("*", "Use IOR Level"): "使用 IOR 級別",
+        ("*", "Use Specular Tint"): "使用高光染色",
+        ("*", "Use Anisotropic"): "使用各向異性",
+        ("*", "Use Anisotropic Rotation"): "使用各向異性旋轉",
         ("*", "Use Emission Color"): "使用自發光顏色",
         ("*", "Use Emission Strength"): "使用自發光強度",
         ("*", "Use Coat Weight"): "使用塗層權重",
+        ("*", "Use Coat Roughness"): "使用塗層粗糙度",
+        ("*", "Use Coat IOR"): "使用塗層 IOR",
+        ("*", "Use Coat Tint"): "使用塗層染色",
         ("*", "Use Sheen Weight"): "使用光澤權重",
+        ("*", "Use Sheen Roughness"): "使用光澤粗糙度",
+        ("*", "Use Sheen Tint"): "使用光澤染色",
         ("*", "Use Transmission Weight"): "使用透射權重",
         ("*", "Use Subsurface Weight"): "使用次表面權重",
         ("*", "Use Subsurface Method"): "使用次表面方法",
         ("*", "Use Subsurface Scale"): "使用次表面縮放",
+        ("*", "Use Subsurface Radius"): "使用次表面半徑",
+        ("*", "Use Subsurface IOR"): "使用次表面 IOR",
+        ("*", "Use Subsurface Anisotropy"): "使用次表面各向異性",
         ("*", "Use Normal Convention"): "使用法線約定",
         ("*", "Use Alpha Mode"): "使用 Alpha 模式",
         ("*", "Use Color Space"): "使用色彩空間",
@@ -123,7 +158,7 @@ translations_dict = {
         ("*", "Use Display Metallic"): "使用顯示金屬度",
         ("*", "Use Display Roughness"): "使用顯示粗糙度",
         ("*", "Clear Custom Split Normals Data"): "清除自定義拆分法線數據",
-        
+
         # 插件自定義屬性值
         ("*", "OpenGL"): "OpenGL",
         ("*", "DirectX"): "DirectX",
@@ -141,7 +176,8 @@ translations_dict = {
         ("*", "Christensen-Burley"): "Christensen-Burley",
         ("*", "Random Walk"): "隨機游走",
         ("*", "Random Walk (Skin)"): "隨機游走（皮膚）",
-        
+        ("*", "Random Walk (Legacy)"): "隨機游走（傳統）",
+
         # UI Panel 標題
         ("*", "Batch Material Helper"): "批量材質助手",
         ("*", "BSDF Properties"): "BSDF 屬性",
@@ -150,12 +186,13 @@ translations_dict = {
         ("*", "Node Properties"): "節點屬性",
         ("*", "Image Texture Settings"): "圖像紋理設置",
         ("*", "Mesh Properties"): "網格屬性",
-        
+
         # 按鈕文本
         ("*", "Apply to Selected"): "應用到選中",
         ("*", "Clear Custom Split Normals"): "清除自定義拆分法線",
         ("*", "Requires Blender 5.1+"): "需要 Blender 5.1+",
-        
+        ("*", "Available in Blender 5.1+"): "需要 Blender 5.1+",
+
         # 屬性標籤
         ("*", "Normal Y"): "法線 Y",
         ("*", "Render Method"): "渲染方法",
@@ -171,9 +208,20 @@ translations_dict = {
         ("*", "Alpha Mode"): "Alpha 模式",
         ("*", "Subsurface Method"): "次表面方法",
         ("*", "Subsurface Scale"): "次表面縮放",
+        ("*", "Subsurface Radius"): "次表面半徑",
+        ("*", "Subsurface IOR"): "次表面 IOR",
+        ("*", "Subsurface Anisotropy"): "次表面各向異性",
         ("*", "Normal Convention"): "法線約定",
+        ("*", "Specular Tint"): "高光染色",
+        ("*", "Anisotropic"): "各向異性",
+        ("*", "Anisotropic Rotation"): "各向異性旋轉",
         ("*", "Coat Weight"): "塗層權重",
+        ("*", "Coat Roughness"): "塗層粗糙度",
+        ("*", "Coat IOR"): "塗層 IOR",
+        ("*", "Coat Tint"): "塗層染色",
         ("*", "Sheen Weight"): "光澤權重",
+        ("*", "Sheen Roughness"): "光澤粗糙度",
+        ("*", "Sheen Tint"): "光澤染色",
         ("*", "Transmission Weight"): "透射權重",
         ("*", "Subsurface Weight"): "次表面權重",
         ("*", "Emission Color"): "自發光顏色",
